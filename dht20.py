@@ -46,7 +46,7 @@ class DHT20:
     def get_humidity_temperature(self):
         """
         since this involves waiting on the sensor, return both in one go
-        as a (relative_humidity, temperature) tuple)
+        as a (relative_humidity, temperature) tuple
         """
 
         """
